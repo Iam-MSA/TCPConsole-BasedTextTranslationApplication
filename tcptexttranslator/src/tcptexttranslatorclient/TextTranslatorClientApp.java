@@ -19,7 +19,7 @@ import java.util.Scanner;
 public class TextTranslatorClientApp {
 
     public static void main(String[] args) throws UnknownHostException, IOException {
-        // 1. Connect to the server / remote machine @ localhost, port 6789
+        // 1. Connect to the server / remote machine @ localhost, port 6999
         Socket socket = new Socket(InetAddress.getLocalHost(), 6999);
 
         // Default status. Assuming for the worst case scenario.

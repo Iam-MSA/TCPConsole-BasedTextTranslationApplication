@@ -22,7 +22,7 @@ public class TCPTextTranslatorApp {
         try {
             int totalRequest = 0;
 
-            // Bind request to a port number, 6789
+            // Bind request to a port number, 6999
             int portNo = 6999;
             serverSocket = new ServerSocket(portNo);
 
